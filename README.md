@@ -164,3 +164,5 @@
 ###  This message shows that your installation appears to be working correctly.
 
 
+## E se você quer começar a usar o docker com postgres eu recomento muito o [post](https://baraus.dev/articles/postgresql-+-docker/) do Bruno de Araujo. Estou compartilhando porque ele me ajudou dms com uma doc bem detalhada e fácil de entender.
+

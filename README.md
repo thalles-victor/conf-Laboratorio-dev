@@ -152,7 +152,7 @@
     sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-### Para testar se foi instalado com sucesso reode esse comando
+### Para testar se foi instalado com sucesso rode esse comando
 
 ```console
     sudo docker run hello-world

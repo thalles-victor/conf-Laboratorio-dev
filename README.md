@@ -65,6 +65,33 @@
     sudo snap install code --classic
 ```
 
+# Git
+![atl git](./assets/git.png)
+### A instalação do git é bem fácil mas qual quer dúvida é so consultar a [documentação](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+### atualizando o apt
+```console
+    sudo apt update
+```
+### Instalando o git
+```console
+    sudo apt install git-all
+```
+### configurando o usuário global obs. use aspas
+```console
+    git config --global user.name "seu-nome-do-git-hub"
+```
+### configurando o email global obs. não use aspas
+```console
+    git config --global user.email seu-email
+```
+### Quando você for fazer um commit para o github, ele vai pedir o nome do usuário, basta você colocar o user.name ou user.email dessa forma.
+
+```console
+    Username for 'https://github.com': user.name
+```
+
+### Agora para o token (senha entre aspas) você tem que colar o que havia gerado na sua conta.
 # Emote
 ![alt emote](./assets/emote.webp)
 ### essa ferramenta permite adicionar emotes nos campos de texo e é muito últil no desenvolvimento mobile.

@@ -1,3 +1,6 @@
+# Este documento mostra como configurar o ambiente de desenvolvimento no Linux no meu caso [Ubuntu](https://ubuntu.com/).
+### Mudanças podem ocorrer como por exemplo autualizações das ferramentas, por isso deixei os comandos de intalação na versão lts, mesmo assim recomendo ver a documentação oficial ou sugerir um  pull request. E a medida do tempo colocarei mais coisas.
+
 # Instalação do curl para fazer requisição http
 ```console
     sudo apt-get install curl

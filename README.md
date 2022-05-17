@@ -34,8 +34,10 @@
 
 # Yarn
 
-### Adicionando o a chave do yarn
 ![alt yarn](./assets/yarn.png)
+
+
+### Adicionando a chave do yarn
 ```console
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 ```
@@ -49,11 +51,11 @@
     sudo apt update
 ```
 
-### instalando o yarn
+### E finalmente instalando o yarn
 ```console
     sudo apt install yarn
 ```
-### verificando se ele foi instalado com sucesso
+### Por último, para verificar se ele foi instalado corretamente.
 
 ```console
     yarn --version
@@ -62,7 +64,7 @@
 # VSCode
 ![alt vscode](./assets/vscode.webp)
 
-### instalando a versão classica
+### Instalando a versão classica
 
 ```console
     sudo snap install code --classic
@@ -70,7 +72,7 @@
 
 # Git
 ![atl git](./assets/git.png)
-### A instalação do git é bem fácil mas qual quer dúvida é so consultar a [documentação](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+### A instalação do git é bem fácil, mas caso queira consultar a doc. [documentação](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ### atualizando o apt
 ```console
@@ -80,10 +82,12 @@
 ```console
     sudo apt install git-all
 ```
-### configurando o usuário global obs. use aspas
+
+### configurando o usuário global obs. use aspas por volta do seu nome
 ```console
     git config --global user.name "seu-nome-do-git-hub"
 ```
+
 ### configurando o email global obs. não use aspas
 ```console
     git config --global user.email seu-email
@@ -94,28 +98,17 @@
     Username for 'https://github.com': user.name
 ```
 
-### Agora para o token (senha entre aspas) você tem que colar o que havia gerado na sua conta.
+### Agora para o token (senha entre aspas) você tem que colar o que foi gerado na sua conta 
+### podendo acessar com [Persolnal access tokens](https://github.com/settings/tokens)
+
 # Emote
 ![alt emote](./assets/emote.webp)
-### essa ferramenta permite adicionar emotes nos campos de texo e é muito últil no desenvolvimento mobile.
+### essa ferramenta permite adicionar emotes nos campos de texo e é muito últil no desenvolvimento principalmente no mobile.
 
 ```console
     sudo snap install emote
 ```
 
-# Pip3
-![alt pip](./assets/pip3.png)
-### As vezes eu gosto de brincar com python, no linux, a terceira versão já vem instalado porém seu gerenciador de pacote não.
-
-### Atualizando o apt
-```console
-    sudo apt-get update
-```
-
-### Instalando o pip3
-```console
-    sudo apt install python3-pip
-```
 
 # Expo
 ![atl expo](./assets/expo.png)
@@ -167,5 +160,20 @@
 ###  This message shows that your installation appears to be working correctly.
 
 
-## E se você quer começar a usar o docker com postgres eu recomento muito o [post](https://baraus.dev/articles/postgresql-+-docker/) do Bruno de Araujo. Estou compartilhando porque ele me ajudou dms com uma doc bem detalhada e fácil de entender.
+## Se você quer começar a usar o docker com postgres eu recomendo muito o [post](https://baraus.dev/articles/postgresql-+-docker/) do Bruno de Araujo. Estou compartilhando porque ele me ajudou dms com uma doc bem detalhada e fácil de entender.
+
+# Pip3
+![alt pip](./assets/pip3.png)
+### As vezes eu gosto de brincar com python, no linux, a terceira versão já vem instalado porém seu gerenciador de pacote não.
+
+### Atualizando o apt
+```console
+    sudo apt-get update
+```
+
+### Instalando o pip3
+```console
+    sudo apt install python3-pip
+```
+
 

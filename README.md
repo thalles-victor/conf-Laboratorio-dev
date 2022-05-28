@@ -25,7 +25,7 @@
     sudo apt-get install -y nodejs
 ```
 
-### verifiando se ele foi instalado com sucesso
+### verificando se ele foi instalado com sucesso
 
 ```console
     node --version

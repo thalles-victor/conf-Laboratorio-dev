@@ -22,7 +22,7 @@
 ### instalando Nodejs
 
 ```console
-    sudo apt-get install -y nodejs
+    sudo apt install -y nodejs
 ```
 
 ### verificando se ele foi instalado com sucesso
@@ -124,11 +124,11 @@
 
 ### Atualizando o apt
 ```console
-    sudo apt-get update
+    sudo apt update
 ```
 
 ```console
-    sudo apt-get install ca-certificates curl gnupg lsb-release
+    sudo apt install ca-certificates curl gnupg lsb-release
 ```
 
 ```console
@@ -142,10 +142,10 @@
 ```
 
 ```console
-    sudo apt-get update
+    sudo apt update
 ```
 ```console
-    sudo apt-get install docker-ce docker-ce-cli containerd.io
+    sudo apt install docker-ce docker-ce-cli containerd.io
 ```
 
 ### Para testar se foi instalado com sucesso reode esse comando
@@ -168,7 +168,7 @@
 
 ### Atualizando o apt
 ```console
-    sudo apt-get update
+    sudo apt update
 ```
 
 ### Instalando o pip3

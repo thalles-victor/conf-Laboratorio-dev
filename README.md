@@ -161,7 +161,7 @@
 
 ### Para dar permição ao comando docker, execute o comando abaixo. Dessa forma não vai prcisar do sudo na frente do comando docker.
 
-```
+```console
     sudo usermod -aG docker $USER
 ```
 

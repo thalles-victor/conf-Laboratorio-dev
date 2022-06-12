@@ -159,6 +159,11 @@
 ###    Hello from Docker!
 ###  This message shows that your installation appears to be working correctly.
 
+### Para dar permição ao comando docker, execute o comando abaixo. Dessa forma não vai prcisar do sudo na frente do comando docker.
+
+```
+    sudo usermod -aG docker $USER
+```
 
 ## Se você quer começar a usar o docker com postgres eu recomendo muito o [post](https://baraus.dev/articles/postgresql-+-docker/) do Bruno de Araujo. Estou compartilhando porque ele me ajudou dms com uma doc bem detalhada e fácil de entender.
 

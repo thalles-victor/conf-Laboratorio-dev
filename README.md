@@ -118,7 +118,7 @@
     sudo npm install --global expo-cli
 ```
 
-# Docker
+# Docker Sorri "sorry" Não está funcionando, em breve eu atualizo)
 ![alt docker](./assets/docker.png)
 ### O docker também tem uma [documentação](https://docs.docker.com/engine/install/ubuntu/) bem detalhada de como installar, porém vou resumila.
 
@@ -148,7 +148,7 @@
     sudo apt install docker-ce docker-ce-cli containerd.io
 ```
 
-### Para testar se foi instalado com sucesso reode esse comando
+### Para testar se foi instalado com sucesso rode esse comando
 
 ```console
     sudo docker run hello-world
@@ -164,6 +164,27 @@
 ```console
     sudo usermod -aG docker $USER
 ```
+
+# Docker Compose
+## O Docker compose é usado para subir container de forma muito simplificada, usando arquivos yml (ou yaml). O pre requisito para instalar é o próprio docker que mostramos anteriormente.
+
+### Bora mais uma vez atualizar esse apt
+```console
+  sudo apt-get update
+```
+
+### Agora é só instalar o docker compose
+
+```console
+  sudo apt-get install docker-compose-plugin
+```
+### E para testar se foi instalado corretamente, rode um
+
+```console
+  docker compose version
+```
+
+## Como disse antes você também pode saber mais sobre o docker compose no artigo que recomendei anteriormente
 
 ## Se você quer começar a usar o docker com postgres eu recomendo muito o [post](https://baraus.dev/articles/postgresql-+-docker/) do Bruno de Araujo. Estou compartilhando porque ele me ajudou dms com uma doc bem detalhada e fácil de entender.
 

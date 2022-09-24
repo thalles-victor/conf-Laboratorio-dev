@@ -118,7 +118,7 @@
     sudo npm install --global expo-cli
 ```
 
-# Docker Sorri "sorry" Não está funcionando, em breve eu atualizo)
+# Docker Engine
 ![alt docker](./assets/docker.png)
 ### O docker também tem uma [documentação](https://docs.docker.com/engine/install/ubuntu/) bem detalhada de como installar, porém vou resumila.
 
@@ -128,16 +128,23 @@
 ```
 
 ```console
-    sudo apt install ca-certificates curl gnupg lsb-release
+    sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
 ```
 
 ```console
-    -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ sudo mkdir -p /etc/apt/keyrings
+```
+```console
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
 ```console
-    echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
@@ -145,7 +152,7 @@
     sudo apt update
 ```
 ```console
-    sudo apt install docker-ce docker-ce-cli containerd.io
+  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ### Para testar se foi instalado com sucesso rode esse comando

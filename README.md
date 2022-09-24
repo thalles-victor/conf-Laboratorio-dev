@@ -30,7 +30,7 @@
 ```console
     node --version
 ```
-
+## Caso queira a referência está em Node [Source Install in Ubuntu](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 
 # Yarn
 

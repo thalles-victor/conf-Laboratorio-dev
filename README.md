@@ -120,7 +120,7 @@
 
 # Docker Engine
 ![alt docker](./assets/docker.png)
-### O docker também tem uma [documentação](https://docs.docker.com/engine/install/ubuntu/) bem detalhada de como installar, porém vou resumila.
+### O docker também tem uma [documentação](https://docs.docker.com/engine/install/ubuntu/) bem detalhada de como installar, porém vou resumi-la.
 
 ### Atualizando o apt
 ```console
